@@ -3,6 +3,10 @@
 **Author:** Siu
 
 📂 **Complete Source Code and Model Output** — available in this repository  
+## 📁 Files Included
+
+- `Pairs_Trading_Report.pdf` — Full project report  
+- `Pairs_Trading_Model.ipynb` — Source code and backtest  
 
 ---
 
@@ -29,8 +33,3 @@ This project implements a cointegration-based pairs trading strategy on GOOG and
 
 ---
 
-## 📁 Files Included
-
-- `Pairs_Trading_Report.pdf` — Full project report  
-- `Pairs_Trading_Model.ipynb` — Source code and backtest  
-- `README.md` — This page
