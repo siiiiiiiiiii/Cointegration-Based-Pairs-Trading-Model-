@@ -1,6 +1,6 @@
 # 🧠 Cointegration-Based Pairs Trading Model
 
-**Author:** Siu King Sum
+**Author:** Siu 
 
 📂 **Complete Source Code and Model Output** — available in this repository.
 
