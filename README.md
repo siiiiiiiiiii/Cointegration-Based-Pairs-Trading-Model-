@@ -1,10 +1,8 @@
 # 🧠 Cointegration-Based Pairs Trading Model
 
-**Author:** Siu King Sum
+**Author:** Siu
 
 📂 **Complete Source Code and Model Output** — available in this repository  
-📄 [👉 Read the Full PDF Report](./Cointegration-Pairs_Trading_Report.pdf)  
-📊 [👉 Open the Jupyter Notebook](./Cointegration-Pairs_Trading_Model.ipynb)
 
 ---
 
