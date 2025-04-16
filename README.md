@@ -3,8 +3,8 @@
 **Author:** Siu King Sum
 
 📂 **Complete Source Code and Model Output** — available in this repository  
-📄 [👉 Read the Full PDF Report](./Pairs_Trading_Report.pdf)  
-📊 [👉 Open the Jupyter Notebook](./Pairs_Trading_Model.ipynb)
+📄 [👉 Read the Full PDF Report](./Cointegration-Pairs_Trading_Report.pdf)  
+📊 [👉 Open the Jupyter Notebook](./Cointegration-Pairs_Trading_Model.ipynb)
 
 ---
 
