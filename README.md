@@ -1,69 +1,66 @@
-# 🧠 Cointegration-Based Pairs Trading Model
+# Cointegration Pairs Trading Model
 
-**Author:** Siu 
-
-📂 **Complete Source Code and Model Output** — available in this repository.
-
-This repository contains the full implementation, optimization logic, performance evaluation, and research documentation of a **market-neutral pairs trading strategy** using historical stock data from Google (GOOG) and Microsoft (MSFT). The strategy is built in Python, with risk control mechanisms and parameter optimization designed for realistic financial applications.
+A market‑neutral, statistical arbitrage strategy that exploits long‑term equilibrium relationships between equity pairs. Built in Python, it combines econometric testing, risk controls, and multi‑stage parameter tuning to deliver stable, risk‐adjusted returns.
 
 ---
 
-## 📁 Files Included
+## 📖 Table of Contents
 
-- `Pairs_Trading_Report.pdf` — A complete report detailing the trading logic, statistical tests, risk controls, parameter selection process, backtest results, and out-of-sample validation.  
-- `Pairs_Trading_Model.ipynb` — A Jupyter Notebook containing the full Python source code, including Johansen testing, regression spread construction, position sizing, and all performance plots.
-
----
-
-## 📌 Project Overview
-
-This project develops a **cointegration-based statistical arbitrage model**, a classic market-neutral approach widely used in hedge funds and quantitative trading desks. The model identifies and trades on temporary deviations in the price relationship between two historically correlated assets.
-
-The core structure of the model includes:
-
-- ✅ **Johansen Cointegration Test** to detect long-term equilibrium between the log-transformed prices of GOOG and MSFT  
-- ✅ **OLS Regression** to compute the hedge ratio and construct the mean-reverting spread  
-- ✅ **Trading Signals** generated based on Z-score thresholds of the spread  
-- ✅ **ATR-Based Stop-Loss** to dynamically adjust to market volatility  
-- ✅ **Volatility-Targeted Position Sizing** that scales exposure based on rolling return volatility  
-- ✅ **Multi-Stage Parameter Optimization** using Grid Search, Random Search, and Bayesian Optimization to avoid overfitting
-
-The system also evaluates risk-adjusted returns using common financial metrics such as Sharpe Ratio, Sortino Ratio, and Maximum Drawdown.
+- [Key Features](#key-features)  
+- [Performance](#performance)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+- [Usage](#usage)  
+- [Configuration](#configuration)  
+- [Results](#results)  
+  - [Backtest (6 years)](#backtest-6-years)  
+  - [Out‑of‑Sample (2023–2024)](#out‑of‑sample-2023–2024)  
+- [Comparison to Buy‑and‑Hold](#comparison-to-buy‑and‑hold)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
 ---
 
-## 📈 Performance Summary
+## 🔑 Key Features
 
-The strategy is evaluated over a 6-year backtest (2017–2023) and a 1-year out-of-sample test (2023–2024). Results show strong stability and generalization:
-
-| Period             | Annualized Return | Annualized Volatility | Sharpe Ratio | Max Drawdown |
-|-------------------|-------------------|------------------------|--------------|--------------|
-| Backtest (2017–23)| 6.27%             | 9.21%                  | 0.68         | -8.67%       |
-| Out-of-Sample     | 8.64%             | ~9%                    | 0.80         | -8.87%       |
-
-💡 While the absolute return is lower than a Buy-and-Hold approach (e.g., GOOG+MSFT = ~24.32%), the strategy offers:
-
-- 📉 Lower volatility (less than one-third of Buy-and-Hold)  
-- 🛡️ Controlled drawdown (maximum drawdown remains under -9%)  
-- 🔁 Market-neutral returns, suitable for volatile or sideways markets  
-- 🧠 Strong generalization: out-of-sample results outperform backtest
+- **Johansen Cointegration Test**: Identifies statistically significant pairs.  
+- **OLS Hedge Ratio**: Estimates optimal long/short weights.  
+- **ATR‑Based Stop Loss**: Dynamic exit to control drawdowns.  
+- **Target‑Volatility Leverage**: Scales positions to a fixed volatility target.  
+- **Multi‑Stage Parameter Optimization**: Grid Search, Random Search, and Bayesian Optimization.
 
 ---
 
-## 🔍 Why This Project Matters
+## 📈 Performance
 
-This project demonstrates not only technical fluency with financial time series modeling but also strong **risk awareness** and **robustness considerations**. Unlike many toy models, this strategy includes:
+### Backtest (6 years)
+- **Annualized Return:** 6.27%  
+- **Annualized Volatility:** 9.21%  
+- **Sharpe Ratio:** 0.68  
+- **Sortino Ratio:** 0.78  
+- **Max Drawdown:** –8.67%  
 
-- Realistic transaction cost assumptions  
-- Adaptive stop-loss tied to volatility  
-- Defensive leverage adjustment for capital preservation  
-- Objective function penalization to avoid over-optimizing for total return
-
-It serves as a **template for scalable and robust quant strategies** under real-world conditions and may be extended to other asset pairs or integrated into a broader portfolio allocation system.
+### Out‑of‑Sample (2023–2024)
+- **Annualized Return:** 8.64%  
+- **Sharpe Ratio:** 0.80  
+- **Max Drawdown:** –8.67% (stable)
 
 ---
 
-## 📬 Contact
+## 🚀 Getting Started
 
-If you're interested in this work or wish to collaborate, feel free to reach out via GitHub or email.
+### Prerequisites
 
+- Python 3.8+  
+- `pandas`, `numpy`, `statsmodels`, `scikit-learn`  
+- `yfinance` (or another data provider)  
+- `ta` (technical indicators)  
+- `optuna` (for Bayesian Optimization)
+
+### Installation
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/siiiiiiiiiii/Cointegration-Based-Pairs-Trading-Model-.git
+   cd Cointegration-Based-Pairs-Trading-Model-
