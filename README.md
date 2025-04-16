@@ -23,7 +23,7 @@ This project implements a cointegration-based pairs trading strategy on GOOG and
 | Period            | Annualized Return | Sharpe Ratio | Max Drawdown |
 |------------------|-------------------|--------------|--------------|
 | Backtest (2017–23) | 6.27%            | 0.68         | -8.67%       |
-| Out-of-Sample     | 8.64%            | 0.80         | Stable       |
+| Out-of-Sample     | 8.64%            | 0.80         | -8.87%       |
 
 📌 Stable, market-neutral, and resilient under out-of-sample testing.
 
