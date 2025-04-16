@@ -28,7 +28,6 @@ During out-of-sample testing, the model outperformed its in-sample performance:
 
 - **Annualized Return**: 8.64%  
 - **Sharpe Ratio**: 0.80  
-- **Maximum Drawdown**: Stable
 
 This suggests the model **was not over-fitted** and **generalizes well to unseen data**.
 
