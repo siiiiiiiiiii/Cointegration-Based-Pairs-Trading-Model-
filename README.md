@@ -45,6 +45,9 @@ This repository features a fully implemented and optimized **market-neutral pair
 | Sortino Ratio         | 1.15          |
 | Max Drawdown          | –40.54%       |
 
+> 🚨 Strong returns due to bull market, but with **extreme volatility and –40% drawdown**.  
+> Not suitable for long-term or conservative asset management—**no downside hedge**, **no market neutrality**.
+
 ---
 
 ### 📄 PDF Report
