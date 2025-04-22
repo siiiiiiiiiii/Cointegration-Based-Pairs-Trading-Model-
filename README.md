@@ -22,6 +22,8 @@ This repository features a fully implemented and optimized **market-neutral pair
 | Sortino Ratio         | 0.78          |
 | Max Drawdown          | –8.67%        |
 
+> ⚖️ Lower return than Buy‑and‑Hold, but delivers **superior risk control** and **market‑neutral alpha**.
+
 #### 🧪 Out-of-Sample (2023–2024)
 | Metric                | Value         |
 |-----------------------|---------------|
@@ -41,8 +43,6 @@ This repository features a fully implemented and optimized **market-neutral pair
 | Sharpe Ratio          | 0.85          |
 | Sortino Ratio         | 1.15          |
 | Max Drawdown          | –40.54%       |
-
-> ⚖️ Lower return than Buy‑and‑Hold, but delivers **superior risk control** and **market‑neutral alpha**.
 
 ---
 
