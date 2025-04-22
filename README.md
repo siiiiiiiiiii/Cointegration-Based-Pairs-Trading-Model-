@@ -42,6 +42,8 @@ This repository features a fully implemented and optimized **market-neutral pair
 | Sortino Ratio         | 1.15          |
 | Max Drawdown          | –40.54%       |
 
+> ⚖️ Lower return than Buy‑and‑Hold, but delivers **superior risk control** and **market‑neutral alpha**.
+
 ---
 
 ### 📄 PDF Report
