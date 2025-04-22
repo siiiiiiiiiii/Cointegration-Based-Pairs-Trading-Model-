@@ -51,14 +51,6 @@ A complete write-up including methodology, charts, code explanation, and interpr
 
 ---
 
-### 🔍 Repository Structure
-- `pairs_trading_model.ipynb` – Core strategy logic & backtest
-- `baseline_buy_and_hold.ipynb` – Benchmark for performance comparison
-- `optimization_module.py` – Grid, random, and Bayesian optimization
-- `/charts/` – Strategy performance visualizations
-
----
-
 ### 💡 Takeaway
 This is a **realistic, risk-managed, self-built strategy** suitable for use in asset management or hedge fund environments. It showcases:
 
