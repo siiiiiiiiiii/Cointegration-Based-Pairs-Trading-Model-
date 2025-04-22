@@ -7,6 +7,8 @@ This repository features a fully implemented and optimized **market-neutral pair
 - ✅ **Fully parameterized backtest framework** with Grid, Random & Bayesian optimization
 - ✅ **Robust risk control**: Max drawdown capped at –8.7% with volatility filters & stop-loss
 - ✅ **Out-of-sample generalization** confirms real-world applicability (2023–2024)
+  
+> ⚠️ This backtest **includes realistic trading costs**, dynamic leverage adjustment, and volatility-based entry filtering. However, real-world execution may still be affected by slippage variability, latency, or market impact.
 
 ---
 
