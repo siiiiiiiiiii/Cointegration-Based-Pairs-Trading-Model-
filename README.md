@@ -7,8 +7,7 @@ This repository features a fully implemented and optimized **market-neutral pair
 - ✅ **Fully parameterized backtest framework** with Grid, Random & Bayesian optimization
 - ✅ **Robust risk control**: Max drawdown capped at –8.7% with volatility filters & stop-loss
 - ✅ **Out-of-sample generalization** confirms real-world applicability (2023–2024)
-  
-> ⚠️ This backtest **includes realistic trading costs**, dynamic leverage adjustment, and volatility-based entry filtering. However, real-world execution may still be affected by slippage variability, latency, or market impact.
+- ✅ **Execution-aware modeling**: Includes slippage, commission, and realistic position sizing using dynamic leverage
 
 ---
 
@@ -61,3 +60,7 @@ This is a **realistic, risk-managed, self-built strategy** suitable for use in a
 - Practical Python implementation without external trading APIs
 - Full-cycle model development (data → strategy → backtest → evaluation)
 - A strong emphasis on **overfitting prevention**, **capital preservation**, and **real-world deployability**
+- The strategy can serve as a **foundation for intraday ETF pairs**, **stat-arb equity models**, or **portfolio hedging modules** in live environments.
+
+> 💼 Designed and implemented from scratch by a third-year FinTech student with real asset management experience (HKD 320,000 AUM), emphasizing practical risk control and self-learned quant research.
+
